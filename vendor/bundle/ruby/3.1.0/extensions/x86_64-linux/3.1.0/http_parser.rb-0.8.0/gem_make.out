@@ -1,0 +1,19 @@
+current directory: /home/nixos/projects/tomcienciala.github.io/vendor/bundle/ruby/3.1.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+/nix/store/dxdq7mgbrh95w6w43r0xz09p94qgdc78-ruby-3.1.6/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /home/nixos/projects/tomcienciala.github.io/vendor/bundle/ruby/3.1.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make DESTDIR\= sitearchdir\=./.gem.20241203-176960-p3km4h sitelibdir\=./.gem.20241203-176960-p3km4h clean
+
+current directory: /home/nixos/projects/tomcienciala.github.io/vendor/bundle/ruby/3.1.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make DESTDIR\= sitearchdir\=./.gem.20241203-176960-p3km4h sitelibdir\=./.gem.20241203-176960-p3km4h
+compiling ruby_http_parser.c
+compiling ryah_http_parser.c
+linking shared-object ruby_http_parser.so
+
+current directory: /home/nixos/projects/tomcienciala.github.io/vendor/bundle/ruby/3.1.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make DESTDIR\= sitearchdir\=./.gem.20241203-176960-p3km4h sitelibdir\=./.gem.20241203-176960-p3km4h install
+install -c -p -m 755 ruby_http_parser.so ./.gem.20241203-176960-p3km4h
+
+current directory: /home/nixos/projects/tomcienciala.github.io/vendor/bundle/ruby/3.1.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make DESTDIR\= sitearchdir\=./.gem.20241203-176960-p3km4h sitelibdir\=./.gem.20241203-176960-p3km4h clean

@@ -1,0 +1,13 @@
+current directory: /home/nixos/projects/tomcienciala.github.io/vendor/bundle/ruby/3.1.0/gems/sass-embedded-1.81.1/ext/sass
+/nix/store/dxdq7mgbrh95w6w43r0xz09p94qgdc78-ruby-3.1.6/bin/ruby -rrubygems /home/nixos/projects/tomcienciala.github.io/vendor/bundle/ruby/3.1.0/gems/rake-13.2.1/exe/rake RUBYARCHDIR\=/home/nixos/projects/tomcienciala.github.io/vendor/bundle/ruby/3.1.0/extensions/x86_64-linux/3.1.0/sass-embedded-1.81.1 RUBYLIBDIR\=/home/nixos/projects/tomcienciala.github.io/vendor/bundle/ruby/3.1.0/extensions/x86_64-linux/3.1.0/sass-embedded-1.81.1
+gem install --force --install-dir /home/nixos/projects/tomcienciala.github.io/vendor/bundle/ruby/3.1.0/gems/sass-embedded-1.81.1/ext/sass/ruby --no-document --ignore-dependencies --platform x86_64-linux-gnu --version 1.81.1 sass-embedded
+fetch https://github.com/sass/dart-sass/releases/download/1.81.1/dart-sass-1.81.1-linux-x64.tar.gz
+tar -vxC . -f dart-sass-1.81.1-linux-x64.tar.gz --no-same-owner --no-same-permissions
+mv /home/nixos/projects/tomcienciala.github.io/vendor/bundle/ruby/3.1.0/gems/sass-embedded-1.81.1/ext/sass/ruby/gems/sass-embedded-1.81.1-x86_64-linux-gnu/ext/sass/dart-sass/sass dart-sass/sass
+rm -rf /home/nixos/projects/tomcienciala.github.io/vendor/bundle/ruby/3.1.0/gems/sass-embedded-1.81.1/ext/sass/ruby
+mkdir -p .
+dart-sass/src/LICENSE
+dart-sass/src/dart
+dart-sass/src/sass.snapshot
+dart-sass/sass
+rm dart-sass-1.81.1-linux-x64.tar.gz

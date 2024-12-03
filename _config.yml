@@ -1,0 +1,7 @@
+include:
+  - _pages/
+  
+exclude:
+  - gemset.nix
+  - flake.nix
+  - flake.lock
