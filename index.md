@@ -8,4 +8,4 @@ title: Home
 This is the homepage of my site.
 
 ## Projects
-[Přenos dat](/prenos-dat.html)
+[Přenos dat]({{ site.baseurl }}{% link prenos-dat.md %})
