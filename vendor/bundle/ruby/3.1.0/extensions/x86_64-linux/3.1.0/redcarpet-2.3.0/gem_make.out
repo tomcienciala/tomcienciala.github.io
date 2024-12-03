@@ -1,0 +1,27 @@
+current directory: /home/nixos/projects/tomcienciala.github.io/vendor/bundle/ruby/3.1.0/gems/redcarpet-2.3.0/ext/redcarpet
+/nix/store/dxdq7mgbrh95w6w43r0xz09p94qgdc78-ruby-3.1.6/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /home/nixos/projects/tomcienciala.github.io/vendor/bundle/ruby/3.1.0/gems/redcarpet-2.3.0/ext/redcarpet
+make DESTDIR\= sitearchdir\=./.gem.20241203-202197-qng6wo sitelibdir\=./.gem.20241203-202197-qng6wo clean
+
+current directory: /home/nixos/projects/tomcienciala.github.io/vendor/bundle/ruby/3.1.0/gems/redcarpet-2.3.0/ext/redcarpet
+make DESTDIR\= sitearchdir\=./.gem.20241203-202197-qng6wo sitelibdir\=./.gem.20241203-202197-qng6wo
+compiling autolink.c
+compiling buffer.c
+compiling houdini_href_e.c
+compiling houdini_html_e.c
+compiling html.c
+compiling html_smartypants.c
+compiling markdown.c
+compiling rc_markdown.c
+compiling rc_render.c
+compiling stack.c
+linking shared-object redcarpet.so
+
+current directory: /home/nixos/projects/tomcienciala.github.io/vendor/bundle/ruby/3.1.0/gems/redcarpet-2.3.0/ext/redcarpet
+make DESTDIR\= sitearchdir\=./.gem.20241203-202197-qng6wo sitelibdir\=./.gem.20241203-202197-qng6wo install
+install -c -p -m 755 redcarpet.so ./.gem.20241203-202197-qng6wo
+
+current directory: /home/nixos/projects/tomcienciala.github.io/vendor/bundle/ruby/3.1.0/gems/redcarpet-2.3.0/ext/redcarpet
+make DESTDIR\= sitearchdir\=./.gem.20241203-202197-qng6wo sitelibdir\=./.gem.20241203-202197-qng6wo clean

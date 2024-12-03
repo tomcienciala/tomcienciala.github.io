@@ -1,0 +1,18 @@
+current directory: /home/nixos/projects/tomcienciala.github.io/vendor/bundle/ruby/3.1.0/gems/racc-1.8.1/ext/racc/cparse
+/nix/store/dxdq7mgbrh95w6w43r0xz09p94qgdc78-ruby-3.1.6/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /home/nixos/projects/tomcienciala.github.io/vendor/bundle/ruby/3.1.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20241203-202197-munw0f sitelibdir\=./.gem.20241203-202197-munw0f clean
+
+current directory: /home/nixos/projects/tomcienciala.github.io/vendor/bundle/ruby/3.1.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20241203-202197-munw0f sitelibdir\=./.gem.20241203-202197-munw0f
+compiling cparse.c
+linking shared-object racc/cparse.so
+
+current directory: /home/nixos/projects/tomcienciala.github.io/vendor/bundle/ruby/3.1.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20241203-202197-munw0f sitelibdir\=./.gem.20241203-202197-munw0f install
+install -c -p -m 755 cparse.so ./.gem.20241203-202197-munw0f/racc
+
+current directory: /home/nixos/projects/tomcienciala.github.io/vendor/bundle/ruby/3.1.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20241203-202197-munw0f sitelibdir\=./.gem.20241203-202197-munw0f clean

@@ -1,0 +1,42 @@
+current directory: /home/nixos/projects/tomcienciala.github.io/vendor/bundle/ruby/3.1.0/gems/yajl-ruby-1.1.0/ext/yajl
+/nix/store/dxdq7mgbrh95w6w43r0xz09p94qgdc78-ruby-3.1.6/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /home/nixos/projects/tomcienciala.github.io/vendor/bundle/ruby/3.1.0/gems/yajl-ruby-1.1.0/ext/yajl
+make DESTDIR\= sitearchdir\=./.gem.20241203-214570-d0e2kx sitelibdir\=./.gem.20241203-214570-d0e2kx clean
+
+current directory: /home/nixos/projects/tomcienciala.github.io/vendor/bundle/ruby/3.1.0/gems/yajl-ruby-1.1.0/ext/yajl
+make DESTDIR\= sitearchdir\=./.gem.20241203-214570-d0e2kx sitelibdir\=./.gem.20241203-214570-d0e2kx
+compiling yajl.c
+compiling yajl_alloc.c
+compiling yajl_buf.c
+compiling yajl_encode.c
+compiling yajl_ext.c
+yajl_ext.c: In function ‘yajl_encode_part’:
+yajl_ext.c:117:21: warning: variable ‘status’ set but not used [-Wunused-but-set-variable]
+  117 |     yajl_gen_status status;
+      |                     ^~~~~~
+yajl_ext.c: In function ‘rb_yajl_parser_parse’:
+yajl_ext.c:442:17: warning: variable ‘stat’ set but not used [-Wunused-but-set-variable]
+  442 |     yajl_status stat;
+      |                 ^~~~
+In file included from /nix/store/dxdq7mgbrh95w6w43r0xz09p94qgdc78-ruby-3.1.6/include/ruby-3.1.0/ruby/ruby.h:26,
+                 from /nix/store/dxdq7mgbrh95w6w43r0xz09p94qgdc78-ruby-3.1.6/include/ruby-3.1.0/ruby.h:38,
+                 from yajl_ext.h:32,
+                 from yajl_ext.c:24:
+yajl_ext.c: In function ‘rb_yajl_encoder_enable_json_gem_ext’:
+yajl_ext.c:852:22: error: ‘rb_cFixnum’ undeclared (first use in this function); did you mean ‘rb_cFile’?
+  852 |     rb_define_method(rb_cFixnum, "to_json", rb_yajl_json_ext_fixnum_to_json, -1);
+      |                      ^~~~~~~~~~
+/nix/store/dxdq7mgbrh95w6w43r0xz09p94qgdc78-ruby-3.1.6/include/ruby-3.1.0/ruby/internal/anyargs.h:287:120: note: in definition of macro ‘rb_define_method’
+  287 | #define rb_define_method(klass, mid, func, arity)           RBIMPL_ANYARGS_DISPATCH_rb_define_method((arity), (func))((klass), (mid), (func), (arity))
+      |                                                                                                                        ^~~~~
+yajl_ext.c:852:22: note: each undeclared identifier is reported only once for each function it appears in
+  852 |     rb_define_method(rb_cFixnum, "to_json", rb_yajl_json_ext_fixnum_to_json, -1);
+      |                      ^~~~~~~~~~
+/nix/store/dxdq7mgbrh95w6w43r0xz09p94qgdc78-ruby-3.1.6/include/ruby-3.1.0/ruby/internal/anyargs.h:287:120: note: in definition of macro ‘rb_define_method’
+  287 | #define rb_define_method(klass, mid, func, arity)           RBIMPL_ANYARGS_DISPATCH_rb_define_method((arity), (func))((klass), (mid), (func), (arity))
+      |                                                                                                                        ^~~~~
+make: *** [Makefile:247: yajl_ext.o] Error 1
+
+make failed, exit code 2
