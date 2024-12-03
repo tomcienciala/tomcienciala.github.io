@@ -3,10 +3,10 @@ current directory: /home/nixos/projects/tomcienciala.github.io/vendor/bundle/rub
 creating Makefile
 
 current directory: /home/nixos/projects/tomcienciala.github.io/vendor/bundle/ruby/3.1.0/gems/commonmarker-0.23.11/ext/commonmarker
-make DESTDIR\= sitearchdir\=./.gem.20241203-219105-vwgvo6 sitelibdir\=./.gem.20241203-219105-vwgvo6 clean
+make DESTDIR\= sitearchdir\=./.gem.20241203-226525-49ejrf sitelibdir\=./.gem.20241203-226525-49ejrf clean
 
 current directory: /home/nixos/projects/tomcienciala.github.io/vendor/bundle/ruby/3.1.0/gems/commonmarker-0.23.11/ext/commonmarker
-make DESTDIR\= sitearchdir\=./.gem.20241203-219105-vwgvo6 sitelibdir\=./.gem.20241203-219105-vwgvo6
+make DESTDIR\= sitearchdir\=./.gem.20241203-226525-49ejrf sitelibdir\=./.gem.20241203-226525-49ejrf
 compiling arena.c
 compiling autolink.c
 compiling blocks.c
@@ -63,8 +63,8 @@ compiling xml.c
 linking shared-object commonmarker/commonmarker.so
 
 current directory: /home/nixos/projects/tomcienciala.github.io/vendor/bundle/ruby/3.1.0/gems/commonmarker-0.23.11/ext/commonmarker
-make DESTDIR\= sitearchdir\=./.gem.20241203-219105-vwgvo6 sitelibdir\=./.gem.20241203-219105-vwgvo6 install
-install -c -p -m 755 commonmarker.so ./.gem.20241203-219105-vwgvo6/commonmarker
+make DESTDIR\= sitearchdir\=./.gem.20241203-226525-49ejrf sitelibdir\=./.gem.20241203-226525-49ejrf install
+install -c -p -m 755 commonmarker.so ./.gem.20241203-226525-49ejrf/commonmarker
 
 current directory: /home/nixos/projects/tomcienciala.github.io/vendor/bundle/ruby/3.1.0/gems/commonmarker-0.23.11/ext/commonmarker
-make DESTDIR\= sitearchdir\=./.gem.20241203-219105-vwgvo6 sitelibdir\=./.gem.20241203-219105-vwgvo6 clean
+make DESTDIR\= sitearchdir\=./.gem.20241203-226525-49ejrf sitelibdir\=./.gem.20241203-226525-49ejrf clean

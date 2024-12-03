@@ -109,7 +109,7 @@ checked program was:
 /* end */
 
 LD_LIBRARY_PATH=.:/nix/store/dxdq7mgbrh95w6w43r0xz09p94qgdc78-ruby-3.1.6/lib "gcc -o conftest -I/nix/store/dxdq7mgbrh95w6w43r0xz09p94qgdc78-ruby-3.1.6/include/ruby-3.1.0/x86_64-linux -I/nix/store/dxdq7mgbrh95w6w43r0xz09p94qgdc78-ruby-3.1.6/include/ruby-3.1.0/ruby/backward -I/nix/store/dxdq7mgbrh95w6w43r0xz09p94qgdc78-ruby-3.1.6/include/ruby-3.1.0 -I.    -O3 -fPIC conftest.c  -L. -L/nix/store/dxdq7mgbrh95w6w43r0xz09p94qgdc78-ruby-3.1.6/lib -Wl,-rpath,/nix/store/dxdq7mgbrh95w6w43r0xz09p94qgdc78-ruby-3.1.6/lib -L. -fstack-protector-strong -rdynamic -Wl,-export-dynamic -Wl,--no-as-needed     -Wl,-rpath,/nix/store/dxdq7mgbrh95w6w43r0xz09p94qgdc78-ruby-3.1.6/lib -L/nix/store/dxdq7mgbrh95w6w43r0xz09p94qgdc78-ruby-3.1.6/lib -lruby-3.1.6  -lm  -lc"
-/nix/store/b2lp2479725x61x2wg58x8ajgfz985w0-binutils-2.41/bin/ld: /tmp/ccD0ueqn.o: in function `t':
+/nix/store/b2lp2479725x61x2wg58x8ajgfz985w0-binutils-2.41/bin/ld: /tmp/ccbI137J.o: in function `t':
 conftest.c:(.text+0x7): undefined reference to `rb_thread_blocking_region'
 collect2: error: ld returned 1 exit status
 checked program was:
@@ -273,7 +273,7 @@ checked program was:
 /* end */
 
 LD_LIBRARY_PATH=.:/nix/store/dxdq7mgbrh95w6w43r0xz09p94qgdc78-ruby-3.1.6/lib "gcc -o conftest -I/nix/store/dxdq7mgbrh95w6w43r0xz09p94qgdc78-ruby-3.1.6/include/ruby-3.1.0/x86_64-linux -I/nix/store/dxdq7mgbrh95w6w43r0xz09p94qgdc78-ruby-3.1.6/include/ruby-3.1.0/ruby/backward -I/nix/store/dxdq7mgbrh95w6w43r0xz09p94qgdc78-ruby-3.1.6/include/ruby-3.1.0 -I.    -O3 -fPIC conftest.c  -L. -L/nix/store/dxdq7mgbrh95w6w43r0xz09p94qgdc78-ruby-3.1.6/lib -Wl,-rpath,/nix/store/dxdq7mgbrh95w6w43r0xz09p94qgdc78-ruby-3.1.6/lib -L. -fstack-protector-strong -rdynamic -Wl,-export-dynamic -Wl,--no-as-needed     -Wl,-rpath,/nix/store/dxdq7mgbrh95w6w43r0xz09p94qgdc78-ruby-3.1.6/lib -L/nix/store/dxdq7mgbrh95w6w43r0xz09p94qgdc78-ruby-3.1.6/lib -lruby-3.1.6  -lm  -lc"
-/nix/store/b2lp2479725x61x2wg58x8ajgfz985w0-binutils-2.41/bin/ld: /tmp/cc8ZEeXu.o: in function `t':
+/nix/store/b2lp2479725x61x2wg58x8ajgfz985w0-binutils-2.41/bin/ld: /tmp/cckawbHw.o: in function `t':
 conftest.c:(.text+0x7): undefined reference to `rb_enable_interrupt'
 collect2: error: ld returned 1 exit status
 checked program was:
